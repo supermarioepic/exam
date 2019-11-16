@@ -1,0 +1,63 @@
+.header {
+    background: url("../images/header.jpg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.title {
+    font-family: $josefin;
+    text-align: center;
+    margin-top: calc(50vh - 90px);
+    
+    &__headline {
+        text-transform: uppercase;
+        font-size: 48px;
+        font-weight: bold;
+        color: $white;
+    }
+
+    &__caption {
+        font-size: 22px;
+        letter-spacing: 6.8px;
+        color: $white;
+        margin-bottom: 50px;
+    }
+
+    .search {
+        position: relative;
+        max-width: 650px;
+        width: 100%;
+        margin: 0px auto;
+        margin-bottom: 120px;
+
+        &__input {
+            width: 100%;
+            height: 60px;
+            padding: 0px 145px 0px 145px;
+            font-family: $josefin;
+            font-size: 14px;
+            letter-spacing: 2.8px;
+            color: $grey;
+        }
+
+        &__button {
+            background-color: $purpure;
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 145px;
+            height: 60px;
+        }
+    }
+
+    .scroll {
+        &__caption {
+            font-size: 14px;
+            letter-spacing: 2.8px;
+            color: $white;
+        }
+    }
+}
